@@ -32,7 +32,7 @@
 
 Праћење промена у директоријумима и над датотекама заснива се на имплементацији FileSystemWatcher класе у .NET framework-у. Ова класа користи Windows File System API, oдносно функцију ReadDirectoryChangesW. Функција ReadDirectoryChangesW прати наведени директоријум и прикупља информације о променама које се дешавају у датотекама и поддиректоријумима. Инфромације о променама се стављају у бафер који апликација може да прочита. Windows опертивни систем користи механизам за обавештавање који је део кернела и који прати систем датотека. Када дође до промена у директоријумима и датотекама, кернел генерише обавештење које функција ReadDirectoryChangesW прослеђује апликацији.
 
-![file-system-api](C:\Users\Milos Lazovic\Desktop\Milos\file-system-forensics\file-system-api.png)
+![file-system-api](https://github.com/milos-lazovic-cs/file-system-forensics/blob/master/file-system-api.png)
 
 <p style= "text-align: center;"> <i>Слика: Ток обавештавања корисничке апликације о променама у фајл систему</i></p>
 
