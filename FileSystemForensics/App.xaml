@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application
+    x:Class="FileSystemForensics.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FileSystemForensics">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
+                <!-- Other merged dictionaries here -->
+            </ResourceDictionary.MergedDictionaries>
+            <!-- Other app resources here -->
+
+            <!-- Brushes, Colors -->
+            <Color x:Key="SystemAccentColor">CadetBlue</Color>
+            <SolidColorBrush x:Key="SystemAccentColorBrush"
+                             Color="{StaticResource SystemAccentColor}"
+                             Opacity=".33" />
+            <SolidColorBrush x:Key="WindowCaptionBackground">Transparent</SolidColorBrush>
+            <SolidColorBrush x:Key="WindowCaptionBackgroundDisabled">Transparent</SolidColorBrush>
+            <SolidColorBrush x:Key="WindowCaptionForeground"
+                 Color="{StaticResource SystemAccentColor}" />
+            <SolidColorBrush x:Key="WindowCaptionForegroundDisabled"
+                 Color="{StaticResource SystemAccentColor}" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

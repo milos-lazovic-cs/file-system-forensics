@@ -1,0 +1,113 @@
+<Window
+    x:Class="FileSystemForensics.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FileSystemForensics"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Transparent">
+        <Grid.Resources>
+            <AcrylicBrush x:Key="NavigationViewExpandedPaneBackground"
+                          TintColor="{StaticResource SystemChromeMediumLowColor}"
+                          TintOpacity=".1"
+                          FallbackColor="{StaticResource SystemChromeMediumLowColor}" />
+        </Grid.Resources>
+
+        <!--<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button x:Name="myButton" Click="myButton_Click">Click Me</Button>
+        </StackPanel>-->
+
+        <NavigationView x:Name="NavigationView"
+                        Loaded="NavigationView_Loaded"
+                        SelectionChanged="NavigationView_SelectionChanged"
+                        Header="WinUI 3 navigation sample"
+                        IsBackButtonVisible="Collapsed"
+                        Background="Transparent"
+                        IsSettingsVisible="False"
+                        Margin="0">
+
+            <!-- MENU ITEMS -->
+            <NavigationView.MenuItems>
+
+                <NavigationViewItem Content="Home"
+                                    Tag="FileSystemForensics.Views.HomePage"
+                                    ToolTipService.ToolTip="Home">
+                    <NavigationViewItem.Icon>
+                        <BitmapIcon UriSource="/Assets/Home.ico"
+                                    ShowAsMonochrome="False" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+
+                <NavigationViewItem Content="Watchers"
+                                    Tag="FileSystemForensics.Views.Watchers"
+                                    ToolTipService.ToolTip="Watchers">
+                    <NavigationViewItem.Icon>
+                        <BitmapIcon UriSource="/Assets/Watcher.ico"
+                                    ShowAsMonochrome="False" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+
+                <NavigationViewItem Content="Statistics"
+                                    Tag="FileSystemForensics.Views.Statistics"
+                                    ToolTipService.ToolTip="Statistics">
+                    <NavigationViewItem.Icon>
+                        <BitmapIcon UriSource="/Assets/Statistics.ico"
+                                    ShowAsMonochrome="False" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+
+                <NavigationViewItem Content="Recent Events"
+                                    Tag="FileSystemForensics.Views.RecentEvents"
+                                    ToolTipService.ToolTip="Recent Events">
+                    <NavigationViewItem.Icon>
+                        <BitmapIcon UriSource="/Assets/RecentEvents.ico"
+                                    ShowAsMonochrome="False" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+
+                <NavigationViewItem Content="Calendar"
+                    Tag="FileSystemForensics.Views.Calendar"
+                    ToolTipService.ToolTip="Calendar">
+                    <NavigationViewItem.Icon>
+                        <BitmapIcon UriSource="/Assets/Calendar.ico"
+                                    ShowAsMonochrome="False" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+
+            </NavigationView.MenuItems>
+
+            <!-- FOOTER MENU ITEMS -->
+            <NavigationView.FooterMenuItems>
+                <NavigationViewItem Content="About"
+                                    Tag="FileSystemForensics.Views.About"
+                                    ToolTipService.ToolTip="About">
+                    <NavigationViewItem.Icon>
+                        <BitmapIcon UriSource="/Assets/About.ico"
+                                    ShowAsMonochrome="False" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+            </NavigationView.FooterMenuItems>
+
+            <!-- CONTENT FRAME -->
+            <Frame x:Name="ContentFrame"
+                   Padding="10 0 30 16">
+                <Frame.ContentTransitions>
+                    <TransitionCollection>
+                        <NavigationThemeTransition>
+                            <NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                                <DrillInNavigationTransitionInfo />
+                            </NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                        </NavigationThemeTransition>
+                    </TransitionCollection>
+                </Frame.ContentTransitions>
+            </Frame>
+
+        </NavigationView>
+
+
+    </Grid>
+
+
+</Window>

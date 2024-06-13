@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FileSystemForensics.Configuraiton.StartupConfiguration" Collapsed="true">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Configuraiton\StartupConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemForensics.Database.ForensicsContext" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAQAAAAAAAAAEAAAIAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Database\ForensicsContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemForensics.Helpers.StringFormatConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\StringFormatConverter.cs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileSystemForensics.Mappers.Mapper" Collapsed="true">
+    <Position X="13.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mappers\Mapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemForensics.Models.WinUIModels.AppViewModel" Collapsed="true">
+    <Position X="7.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAABCAAgAAAAAAAAAAAAAEBAAAAAAAABIAAA=</HashCode>
+      <FileName>Models\WinUIModels\AppViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemForensics.Models.WinUIModels.BaseBind" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAgAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\WinUIModels\BaseBind.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FileSystemForensics.Models.DirectoryInfo">
+    <Position X="10.75" Y="7.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CAAiAAABIAAAAIgAAEAAAAQQQAEAAQCAAEAAAAEAIAA=</HashCode>
+      <FileName>Models\DirectoryInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemForensics.Models.FileInfo">
+    <Position X="13.5" Y="7.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAEyAAABICAAAIgQAEAAAARQAAAAAQCAAAAAgAEAAAA=</HashCode>
+      <FileName>Models\FileInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemForensics.Models.FileSystemEvent">
+    <Position X="16" Y="10.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>iAACAAACAAAAAAARAAACAAAAAAACAAAAAEAAAABAAAA=</HashCode>
+      <FileName>Models\FileSystemEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemForensics.Models.Volume" Collapsed="true">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAEAAAIAAAAAQAAAgAAAAAAQACAAAAAAA=</HashCode>
+      <FileName>Models\Volume.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemForensics.Models.Watcher">
+    <Position X="16" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACCAAAACAAAIQAAAAAAAAAAAAAAAAgIAAAAAAAAAA=</HashCode>
+      <FileName>Models\Watcher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemForensics.Services.FileSystemMonitoringService">
+    <Position X="8" Y="7.5" Width="2.5" />
+    <NestedTypes>
+      <Delegate Name="FileSystemForensics.Services.FileSystemMonitoringService.FileSystemEventDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Services\FileSystemMonitoringService.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BSAAAAIAABAABECgABBRIAAApAAAAACAEAAAAAAAAQA=</HashCode>
+      <FileName>Services\FileSystemMonitoringService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemForensics.Services.VolumeService" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\VolumeService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemForensics.ViewModels.Bars.BarViewModel" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAABAAAAAAAIAAAgAAAAAAAAAE=</HashCode>
+      <FileName>ViewModels\Bars\BarViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemForensics.ViewModels.DateTimeChart.DateTimeLineChart" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAABAAAAAAAAAAAgAAAAAAAAAE=</HashCode>
+      <FileName>ViewModels\DateTimeChart\DateTimeLineChart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemForensics.ViewModels.Pies.PieViewModel" Collapsed="true">
+    <Position X="11.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABBAAAAAAAAAAAgAAAAAAAAAE=</HashCode>
+      <FileName>ViewModels\Pies\PieViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemForensics.ViewModels.RealTime.RealTimeViewModel" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgAAAAAAAABAACAAAAAJAAAAAAAgAAACIAAAAAACCE=</HashCode>
+      <FileName>ViewModels\RealTime\RealTimeViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemForensics.ViewModels.RecentEvents.DataGridDataItem" Collapsed="true">
+    <Position X="10" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\RecentEvents\DataGridDataItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemForensics.ViewModels.RecentEvents.DataGridDataSource" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\RecentEvents\DataGridDataSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemForensics.ViewModels.Watchers.DataGridDataItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABIEKQUAAAAAAACAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>ViewModels\Watchers\DataGridDataItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileSystemForensics.ViewModels.Watchers.DataGridDataSource" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAGAAAAAASEAAAQAAAAAAAIBBAAAAAAAAAAAAAIAQ=</HashCode>
+      <FileName>ViewModels\Watchers\DataGridDataSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemForensics.Views.Charts.BarChart.View" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Charts\BarChart\View.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileSystemForensics.Views.Charts.DateTime.View" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Charts\DateTime\View.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileSystemForensics.Views.Charts.PieChart.View" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Charts\PieChart\View.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileSystemForensics.Views.Charts.RealTime.View" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Charts\RealTime\View.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileSystemForensics.Views.About" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\About.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileSystemForensics.Views.Calendar" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAIAAAACgAQACAABAAEIAAAgCAABAAAAAQAAAA=</HashCode>
+      <FileName>Views\Calendar.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileSystemForensics.Views.HomePage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAQAAAEAAAAAAAAAAAAAACAAAAAAAAQA=</HashCode>
+      <FileName>Views\HomePage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileSystemForensics.Views.VolumeInfo">
+    <Position X="11" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAkAAAAAAAAAQAAAAAAAAAAQAiAAAAAAA=</HashCode>
+      <FileName>Views\HomePage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemForensics.Views.RecentEvents" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAQAAAAAAAIAAEAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\RecentEvents.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileSystemForensics.Views.Statistics" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAEABAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Views\Statistics.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileSystemForensics.Views.Watchers" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgABAAAAAESQIAAYAkEAAAAAEAAAQAABAAABIYAABIA=</HashCode>
+      <FileName>Views\Watchers.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileSystemForensics.App" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAQQAABAIAQAQ=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FileSystemForensics.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAACCQBABAEAAAAgAAAAAAAAAAAEg=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="FileSystemForensics.Services.Interfaces.INavigation">
+    <Position X="7.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAQAABAAAAAAAAAAAAAAAAAAEg=</HashCode>
+      <FileName>Services\Interfaces\INavigation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

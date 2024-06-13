@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FileSystemForensics (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "FileSystemForensics (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
