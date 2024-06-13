@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="FileSystemForensics.Views.RecentEvents"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FileSystemForensics.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:ctWinUI="using:CommunityToolkit.WinUI.UI.Controls"
+    >
+
+    <ScrollViewer>
+        <StackPanel>
+
+            <!-- Data Grid, Recent events -->
+            <Grid Margin="0 20 0 0"
+                Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                CornerRadius="8"
+                Height="500">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <!-- Data Grid columns -->
+                <ctWinUI:DataGrid x:Name="RecentEventsDataGrid"
+                          AutoGenerateColumns="False"
+                          CanUserSortColumns="True"
+                          RowDetailsVisibilityMode="VisibleWhenSelected"
+                          Grid.Row="1">
+
+                    <ctWinUI:DataGrid.Resources>
+                        <SolidColorBrush x:Key="DataGridColumnHeaderBackgroundBrush"
+                                Opacity=".5" />
+                    </ctWinUI:DataGrid.Resources>
+
+                    <ctWinUI:DataGrid.Columns>
+                        <ctWinUI:DataGridTextColumn Header="Event Id"
+                                                    Binding="{Binding Id}"
+                                                    Tag="WatcherId" />
+                        <ctWinUI:DataGridTextColumn Header="Watcher Id"
+                                                    Binding="{Binding WatcherId}"
+                                                    Tag="WatcherStartedDate" />
+                        <ctWinUI:DataGridTextColumn Header="Timestamp"
+                                                    Binding="{Binding Timestamp}"
+                                                    Tag="WatcherStoppedDate" />
+                        <ctWinUI:DataGridTextColumn Header="Type"
+                                                    Binding="{Binding WatcherChangeTypes}"
+                                                    Tag="WatcherDirectory" />
+                        <ctWinUI:DataGridTextColumn Header="File Name"
+                                                    Binding="{Binding FileName}"
+                                                    Tag="Enabled" />
+                        <ctWinUI:DataGridTextColumn Header="Old File Name"
+                                                    Binding="{Binding OldFileName}"
+                                                    Tag="Enabled" />
+                        <ctWinUI:DataGridTextColumn Header="Full Path"
+                                                    Binding="{Binding FullPath}"
+                                                    Tag="Enabled" />
+                        <ctWinUI:DataGridTextColumn Header="Old Full Path"
+                                                    Binding="{Binding OldFullPath}"
+                                                    Tag="Enabled" />
+                    </ctWinUI:DataGrid.Columns>
+
+                </ctWinUI:DataGrid>
+            </Grid>
+
+            <Button Click="RecentEventsButton_Click"
+                    Margin="0 20 0 0">Refresh List</Button>
+        </StackPanel>
+
+
+    </ScrollViewer>
+
+</Page>
